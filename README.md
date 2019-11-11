@@ -52,7 +52,7 @@ Options -i (input file) and -o (output directory) are required. The other option
 		(Y) mean ML support
 		(Z) variance of ML support
 -d	Do not keep output directory clean (default = keep clean).
--i	Input sequences in FASTA format (names should be '>species#sequence').
+-i	Input sequences in FASTA format (names should be '>genus_species#sequenceID').
 -m	Use the LG or WAG model for FastTree calculations (default = lg; RAxML
 	conducts model testing).
 -n	Limit analysis to n combinations (default = all).
