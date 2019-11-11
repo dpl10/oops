@@ -1,6 +1,6 @@
 # OOPS (Optimal Orthlogy for Phylogenomic Studies)
 
-OOPS selects one sequence per species from a set of input paralogs using one of the 26 supported criteria. Multiple simultaneous selections can be conducted if more than one criterion is desired. The default is to use all criteria.
+OOPS selects one sequence per species from a set of input paralogs using one of the 26 supported criteria ([see below](#use)). Multiple simultaneous selections can be conducted if more than one criterion is desired. The default is to use all criteria.
 
 ### install
 Copy [oops.pl](https://github.com/dpl10/oops/blob/master/oops.pl) to a convient location in your PATH and ensure that a [Perl](https://www.perl.org/) version 5 interpreter is available (tested with 5.18).
@@ -13,7 +13,7 @@ Copy [oops.pl](https://github.com/dpl10/oops/blob/master/oops.pl) to a convient 
 * [RAxML](https://github.com/stamatak/standard-RAxML) version 8 or [FastTree](http://meta.microbesonline.org/fasttree/#Install) version 2 must be in your PATH if criteria W–Z are employed (the -s option uses RAxML in place of the default FastTree).
 
 ### input files
-The input FASTA format file should contain amino acid sequences from multiple species and sequence names should be in the form of ‘>taxon#sequenceID’. The number (hash) symbol should not be used in the taxon name or the sequence identification number.
+The input FASTA format file should contain amino acid sequences from multiple species and sequence names should be in the form of ‘>genus_species#sequenceID’. The number (hash) symbol should not be used in the taxon name or the sequence identification number.
 ```plaintext
 >Paradonea_presleyi#D123
 ELVISISDEAD
