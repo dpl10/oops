@@ -276,7 +276,11 @@ sub fnv32a {
 		$hash = $hash^ord($data[$k]);
 		$hash = ($hash*0x01000193)%4294967296; ### 2**32
 	}
-	return(sprintf("0x%X", $hash));
+	my $o = sprintf("0x%X", $hash);
+	while(length($o) < 10){
+		$o .= '0';
+	}
+	return($o);
 }
 ############################### FORMAT FASTA
 sub formatFASTA {
