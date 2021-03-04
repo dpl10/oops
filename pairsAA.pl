@@ -180,7 +180,7 @@ if($G && $g && length($i)){
 			my $gap = 0;
 			my $start = 0;
 			for(my $j = $#{$alignment->[$k]}; $j >= 0; $j--){
-				if(($alignment->[$k][$j] =~ m/[ACDEFGHIKLMNPQRSTVWYX]/) && ($alignment->[$kk][$j] =~ m/[ACDEFGHIKLMNPQRSTVWYX]/)){
+				if(($alignment->[$k][$j] =~ m/[ACDEFGHIKLMNPQRSTVWY]/) && ($alignment->[$kk][$j] =~ m/[ACDEFGHIKLMNPQRSTVWY]/)){
 					$sum += $gap;
 					$gap = 0;
 					$start = 1;
