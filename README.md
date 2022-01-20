@@ -65,7 +65,7 @@ Options -i (input file) and -o (output directory) are required. The other option
 ```
 
 ### citation
-If you use this software, please cite: Little, D.P., G. Eshel, A. Narechania, and M. Tessler. Submitted. OOPS: Optimal Orthlogy for Phylogenomic Studies. [Molecular Phylogenetics and Evolution](https://doi.org/ADD_DOI).
+If you use this software, please cite: Eshel, G., M. Tessler, A. Narechania, K. Varala, C.W. Nelson, C. Zegar, S.–O. Kolokotronis, D.Wm. Stevenson, G. Coruzzi, R. DeSalle, and D.P. Little. Submitted. Correlation among algorithms as a powerful tool to optimize phylogenomic pipelines. [Bioinformatics](https://doi.org/ADD_DOI).
 
 ### license
 [GPL](https://github.com/dpl10/oops/blob/master/LICENSE)
