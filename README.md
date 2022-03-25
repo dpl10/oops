@@ -1,4 +1,4 @@
-# OOPS: Optimal Orthlogy for Phylogenomic Studies
+# OOPS: Optimal Orthology for Phylogenomic Studies
 
 Given a set of orthologous sequences, OOPS reduces the set to one sequence per taxon  using one of the 26 supported criteria ([see below](#use)) to pick the optimal sequences.
 
